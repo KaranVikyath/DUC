@@ -5,8 +5,10 @@ Baskar, S., Veeranna Rupashree, K. V., & Pimentel-Alarcón, D. L. (2025).
 **Deep-Union Completion**, _Proceedings of the AAAI Conference on Artificial Intelligence_, 39(15), 15507–15515.  
 https://doi.org/10.1609/aaai.v39i15.33702
 
-![Figure 1: mage reconstruction for COIL20, E-Yale B and
-ORL datasets with 80% missing data. ](assets/comb_80(2).png)
+<div align="center">
+  <img src="assets/comb_80(2).png" 
+       alt="Figure 1: Image reconstruction for COIL20, E-Yale B and ORL datasets with 80% missing data." />
+</div>
 ---
 
 ## 🚀 Project Overview
