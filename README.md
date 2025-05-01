@@ -16,9 +16,8 @@ This a unified PyTorch framework for:
 1. **Data Completion**  
    Filling in missing entries via a convolutional autoencoder.  
 2. **Subspace Clustering**
-   Subspace clustering with two methods
 
-It currently provides two self-expressive backends:
+It currently provides two backends:
 
 ## Deep Union Completion (DUC)
 - **CFS** (Closed-Form Subspace) [1]
