@@ -26,7 +26,7 @@ It currently provides two backends:
 
 ## Latent Union Completion (LUC)
 - **SSC** (Sparse Subspace Clustering) [2] — a DSC net [3] inspired implementation
-- ![Figure 1: LUC Network](assets/arcfix.png)
+- ![Figure 1: LUC Network](assets/arcfix.jpg)
 - Usage: Simply configure the Novel_dataset section in dataset_parameters.py, then execute the third cell of DUC_main.ipynb to load and process your data with cluster_model = "SSC".
 
 ---
