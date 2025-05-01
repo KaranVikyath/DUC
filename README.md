@@ -1,4 +1,4 @@
-# Deep Union Completion (DUC)
+# High Rank Matrix Completion
 
 _PyTorch implementation of our AAAI ’25 paper:_  
 [1] Baskar, S., Veeranna Rupashree, K. V., & Pimentel-Alarcón, D. L. (2025).  
@@ -19,10 +19,15 @@ https://doi.org/10.1609/aaai.v39i15.33702
 
 It currently provides two self-expressive backends:
 
+## Deep Union Completion (DUC)
 - **CFS** (Closed-Form Subspace) [1]
 - ![Figure 1: DUC Network](assets/arcgram.png)
+- Usage: Simply configure the Novel_dataset section in dataset_parameters.py, then execute the third cell of DUC_main.ipynb to load and process your data with cluster_model = "CFS".
+
+## Latent Union Completion (LUC)
 - **SSC** (Sparse Subspace Clustering) [2] — a DSC net [3] inspired implementation
-- ![Figure 1: DUC Network](assets/arcfix.png)
+- ![Figure 1: LUC Network](assets/arcfix.png)
+- Usage: Simply configure the Novel_dataset section in dataset_parameters.py, then execute the third cell of DUC_main.ipynb to load and process your data with cluster_model = "SSC".
 
 ---
 
@@ -34,10 +39,6 @@ It currently provides two self-expressive backends:
 - **Automatic outputs**: save imputed data and clustering metrics  
 
 ---
-
-## Usage
-
-Simply configure the Novel_dataset section in dataset_parameters.py, then execute the third cell of DUC_main.ipynb to load and process your data.
 
 ## References
 [3] Pan Ji*, Tong Zhang*, Hongdong Li, Mathieu Salzmann, Ian Reid. "Deep Subspace Clustering Networks" NIPS'17
