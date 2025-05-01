@@ -11,11 +11,12 @@ https://doi.org/10.1609/aaai.v39i15.33702
 
 ## 🚀 Project Overview
 
-**DUC** is a unified PyTorch framework for:
+This a unified PyTorch framework for:
 
 1. **Data Completion**  
    Filling in missing entries via a convolutional autoencoder.  
-2. **Subspace Clustering**  
+2. **Subspace Clustering**
+   Subspace clustering with two methods
 
 It currently provides two self-expressive backends:
 
