@@ -7,10 +7,6 @@ https://doi.org/10.1609/aaai.v39i15.33702
 
 [2] Veeranna Rupashree, K. V., Baskar, S., & Pimentel-Alarcón, D. L. (2025). **Latent Union Completion**, IEEE International Symposium on Information Theory.
 
-<div align="center">
-  <img src="assets/comb_80(2).png" 
-       alt="Figure 1: Image reconstruction for COIL20, E-Yale B and ORL datasets with 80% missing data." />
-</div>
 ---
 
 ## 🚀 Project Overview
@@ -23,8 +19,10 @@ https://doi.org/10.1609/aaai.v39i15.33702
 
 It currently provides two self-expressive backends:
 
-- **CFS** (Closed-Form Subspace) [1] — our proposed module  
+- **CFS** (Closed-Form Subspace) [1]
+- ![Figure 1: DUC Network](assets/arcgram.png)
 - **SSC** (Sparse Subspace Clustering) [2] — a DSC net [3] inspired implementation
+- ![Figure 1: DUC Network](assets/arcfix.png)
 
 ---
 
@@ -34,7 +32,7 @@ It currently provides two self-expressive backends:
 - **End-to-end training**: jointly optimize autoencoder + self-expressive layer  
 - **Dual clustering**: choose between CFS or SSC backends  
 - **Automatic outputs**: save imputed data and clustering metrics  
-![Figure 1: DUC Network](assets/arcgram.png)
+
 ---
 
 ## Usage
