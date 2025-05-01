@@ -23,7 +23,7 @@ https://doi.org/10.1609/aaai.v39i15.33702
 It currently provides two self-expressive backends:
 
 - **CFS** (Closed-Form Subspace) — our proposed module  
-- **SSC** (Sparse Subspace Clustering)[^1] — an updated PyTorch DSC implementation  
+- **SSC** (Sparse Subspace Clustering) [1] — an updated PyTorch DSC implementation  
 
 ---
 
@@ -32,7 +32,6 @@ It currently provides two self-expressive backends:
 - **Flexible masks**: handle arbitrary missing-data patterns  
 - **End-to-end training**: jointly optimize autoencoder + self-expressive layer  
 - **Dual clustering**: choose between CFS or SSC backends  
-- **CLI support**: launch experiments with a single command  
 - **Automatic outputs**: save imputed data and clustering metrics  
 ![Figure 1: DUC Network](assets/arcgram.png)
 ---
