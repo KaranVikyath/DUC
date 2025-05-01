@@ -32,7 +32,7 @@ It currently provides two self-expressive backends:
 - **Dual clustering**: choose between CFS or SSC backends  
 - **CLI support**: launch experiments with a single command  
 - **Automatic outputs**: save imputed data and clustering metrics  
-
+![Figure 1: DUC Network](assets/arcgram.png)
 ---
 
 ## Usage
