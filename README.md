@@ -1,6 +1,6 @@
 # High Rank Matrix Completion
 
-_PyTorch implementation of our papers:_  
+_Python implementation of our papers:_  
 [1] Baskar, S., Veeranna Rupashree, K. V., & Pimentel-Alarcón, D. L. (2025).  
 **Deep-Union Completion**, _Proceedings of the AAAI Conference on Artificial Intelligence_, 39(15), 15507–15515.  
 https://doi.org/10.1609/aaai.v39i15.33702
