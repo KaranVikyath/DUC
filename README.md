@@ -20,7 +20,6 @@ https://doi.org/10.1609/aaai.v39i15.33702
 1. **Data Completion**  
    Filling in missing entries via a convolutional autoencoder.  
 2. **Subspace Clustering**  
-   Closed-form solution that reveals subspace structure.
 
 It currently provides two self-expressive backends:
 
